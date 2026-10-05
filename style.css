@@ -1,0 +1,329 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+}
+.navbar{
+    height:120px;
+    width:100%;
+    background-color:#0F172A;
+    display:flex;
+    color:white;
+}
+.navbar-logo{
+    height:120px;
+    width:100px;
+    color:white;
+}
+.logo{
+    height:120px;
+    width:100px;
+    background-image:url(skilildoo.png);
+    background-size:cover;
+    background-position:center;
+}
+.nav-links{
+    height:70px;
+    width:100%;
+    margin-top:30px;
+    column-gap:20px;
+    color:#E2E8F0;
+    
+    
+}
+.links{
+    text-decoration:none;
+    color:#E2E8F0;
+    font-size:25px;
+    font-weight:bold;
+    margin-left:50px;
+    display:flex;
+    column-gap:90px;
+}
+.background-home{
+    height:800px;
+    width:100%;
+    background-image:url(glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg);
+    background-size:cover;
+    background-position:center;
+}
+.quote{
+    height:50px;
+    width:100%;
+    text-align:center;
+    font-size:40px;
+    font-weight:700;
+    background:linear-gradient(90deg, #2563EB, #06b6d4);
+    color:white;
+}
+.popularservicesbox{
+    height: 400px;
+    width: 100%;
+    background-color:salmon;
+}
+.pop-heading{
+    height: 100px;
+    width:100%;
+    text-align: center;
+    background-color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+.popoptions{
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    gap: 80px;
+    background-color: rgb(76, 184, 173);
+
+}
+.box1{
+    text-align: center;
+    font-weight:700;
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    background-color: rgba(0, 145, 143, 0.279);
+}
+.box2{
+ text-align: center;
+ font-weight:700;
+     height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    background-color:  rgba(0, 145, 143, 0.279);
+}
+.box3{
+text-align: center;
+font-weight:700;
+height: 200px;
+width: 200px;
+border-radius: 20%;
+background-color:  rgba(0, 145, 143, 0.279);
+}
+.box4{
+text-align: center;
+font-weight:700;
+ height: 200px;
+width: 200px;
+border-radius: 20%;
+background-color:  rgba(0, 145, 143, 0.279);;
+}
+.box5{
+text-align: center;
+font-weight:700;
+ height: 200px;
+ width: 200px;
+ border-radius: 20%;
+ background-color:  rgba(0, 145, 143, 0.279);;
+}
+.box6{
+ text-align: center;
+ font-weight:700;
+ height: 200px;
+ width: 200px;
+ border-radius: 20%;
+ background-color:  rgba(0, 145, 143, 0.279);
+}
+.box1, .box2, .box3, .box4, .box5, .box6{
+    transition:0.3s ease;
+}
+
+.box1:hover {
+    transform:translateY(-8px);
+    box-shadow:0 15px 55px rgba(15, 23, 42, 0.10);
+}
+.box2:hover {
+     transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(15, 23, 42, 0.15);
+    
+}
+.box3:hover {
+     transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(15, 23, 42, 0.15);
+}
+.box4:hover {
+     transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(15, 23, 42, 0.15);
+}
+.box5:hover {
+     transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(15, 23, 42, 0.15);
+}
+.box6:hover {
+     transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(15, 23, 42, 0.15);
+}
+
+.webdevimg{
+background-size:cover;
+background-position:center;
+ background-image:url(ferenc-almasi-eYpcLDXHVb0-unsplash.jpg);
+justify-self:center;
+border-radius: 25%;
+height: 170px;
+    width: 170px;
+
+}
+.softdevimg{
+ justify-self:center;
+border-radius: 25%;
+height: 170px;
+width: 170px;
+background-size:cover;
+background-position:center;
+background-image:url(fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg);
+}
+.graphicdesignimg{
+justify-self:center;
+border-radius: 25%;
+height: 170px;
+width: 170px;
+background-image:url(emily-bernal-v9vII5gV8Lw-unsplash.jpg);
+background-size:cover;
+background-position:center;
+}
+.videoeditimg{
+justify-self:center;
+border-radius: 25%;
+height: 170px;
+width: 170px;
+background-image:url(peter-stumpf-yk9VXp4W5-Q-unsplash.jpg);
+background-size:cover;
+background-position:center;
+}
+.creativeimg{
+justify-self:center;
+border-radius: 25%;
+height: 170px;
+width: 170px;
+background-image:url(markus-winkler-_nvKjg0aliA-unsplash.jpg);
+background-size:cover;
+background-position:center;
+}
+.howitworksbox{
+    justify-self:center;
+    height:520px;
+    width:100%;
+}
+.howitworksheading{
+    height:50px;
+    width:100%;
+    background-color:#f8fafc;
+    text-align:center;
+    font-size:40px;
+    font-weight:700;
+}
+.workbox{
+    margin-top:50px;
+    justify-content:center;
+    height:300px;
+    width:100%;
+    display:flex;
+    gap:200px;
+}
+.workbox1{
+    height:350px;
+    width:320px;
+    background-color:bisque;
+    background-image:url();
+    background-size:cover;
+    background-position:center;
+}
+.workbox2{
+     height:350px;
+    width:320px;
+    background-color:bisque;
+    background-image:url();
+    background-size:cover;
+    background-position:center;
+}
+.workbox3{
+    height:350px;
+    width:320px;
+    background-color:bisque;
+    background-size:cover;
+    background-position:center;
+}
+.workbox1:hover{
+    outline:3px solid black;
+}
+.workbox2:hover{
+    outline:3px solid black;
+}
+.workbox3:hover{
+    outline:3px solid black;
+}
+.workbox1img{
+    height:300px;
+    width:320;
+     background-image:url(posting.jpg);
+      background-size:cover;
+    background-position:center;
+
+}
+.workbox2img{
+    height:300px;
+    width:320;
+    background-image:url(find.jpg);
+      background-size:cover;
+    background-position:center;
+
+}
+.workbox3img{
+    height:300px;
+    width:320;
+    background-image:url(workdone.jpg);
+    background-size:cover;
+    background-position:center;
+}
+.workbox1line{
+    text-align:center;
+    text-decoration:underline;
+    color: black;
+    font-size:x-large;
+}
+.workbox2line{
+    text-align:center;
+    text-decoration:underline;
+    color: black;
+    font-size:x-large;
+}
+.workbox3line{
+    text-align:center;
+    text-decoration:underline;
+    color: black;
+    font-size:x-large;
+}
+.premiumbox{
+    margin-top:100px;
+    height:500px;
+    width:100%;
+    background-color:lightblue;
+}
+.premium-heading{
+    height:60px;
+    width:100%;
+    background-color:lightgreen;
+    font-size:50px;
+    font-weight:800;
+}
+.premium-body{
+    height:440px;
+    width:100%;
+    display:flex;
+}
+.leftboxpremium{
+    height:440px;
+    width:50%;
+    background-color:lightsalmon;
+    font-size:20px;
+    font-weight:900;
+}
+.rightboxpremium{
+    height:440px;
+    width:50%;
+    background-color:darkslateblue;
+}
+
+
