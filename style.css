@@ -300,7 +300,6 @@ background-position:center;
     margin-top:100px;
     height:500px;
     width:100%;
-    background-color:lightblue;
 }
 .premium-heading{
     height:60px;
@@ -317,14 +316,42 @@ background-position:center;
 .leftboxpremium{
     height:440px;
     width:50%;
-    background-color:lightsalmon;
+    background-color:antiquewhite;
     font-size:20px;
     font-weight:900;
+    border-radius: 25%;
 }
 .rightboxpremium{
     height:440px;
     width:50%;
-    background-color:darkslateblue;
+    background-color:antiquewhite;
+    border-radius: 25%;
 }
+.leftboxpremium , .h1{
+    text-align:center;
+    font-weight:900;
+    font-size: large;
+}
+.leftboxpremiumdetails{
+    justify-self: center;
+    height:200px;
+    width:400px;
+    font-size: x-large;
+    text-align: center;
+    background-color: tan;
 
+}
+.h1,  .leftboxpremiumdetails{
+    text-align: center;
+    color:white;
+     font-weight:900;
+    font-size: large;
+}
+.rightboxpremiumdetails{
+    text-align: center;
+    height: 300px;
+    width:400px;
+    background-color: tan;
+    justify-self: center;
+}
 
